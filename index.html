@@ -13,20 +13,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         
-            .sora {
+            .sora-font{
             font-family: "Sora", serif;
-            font-optical-sizing: auto;
-            font-style: normal;
+        
             }
     </style>
 </head>
-<body>
+<body class="sora-font">
 
     <!-- header part begain  -->
     <!-- <header class="bg-linear-to-b from-cyan-500 to-blue-500"> -->
-        <header>
+    <header>
             <div class="bg-linear-to-b from-cyan-500 to-blue-500">
-                <div class="container mx-auto">
+                <div class="max-w-[1320px] mx-auto">
                     <div class="navbar bg-base-100">
                         <div class="navbar-start">
                         <div class="dropdown">
@@ -95,6 +94,50 @@
     <!-- main part begain  -->
 
     <main>
+
+        <section>
+            <div class="max-w-[1320px] mx-auto">
+                <h3 class="py-24">Services</h3>
+                <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="card card-compact bg-[#ddd] shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/service.png"
+                            alt="Shoes"
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">24/7 Services </h2>
+                          <p>We provide 24/7 services, ensuring round-the-clock support, reliability, and assistance whenever you need it, day or night.</p>
+                        </div>
+                    </div>
+                    <div class="card card-compact bg-[#ddd] shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/delivery.png"
+                            alt="Shoes"
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Fast Delivery</h2>
+                          <p>We ensure fast delivery, bringing your orders quickly and efficiently to your doorstep with reliability and care.</p>
+                        </div>
+                    </div>          
+                    <div class="card card-compact bg-[#ddd] shadow-xl">
+                        <figure class="px-10 pt-10">
+                          <img
+                            src="c2-assets/healthy.png"
+                            alt="Shoes"
+                            class="rounded-xl" />
+                        </figure>
+                        <div class="card-body items-center text-center">
+                          <h2 class="card-title">Healthy Products</h2>
+                          <p>Our healthy products are made with natural ingredients, ensuring freshness, nutrition, and a better lifestyle every day.</p>
+                        </div>
+                    </div>  
+                </div>        
+            </div>
+        </section>
 
     </main>
 
